@@ -326,7 +326,7 @@ a:hover {
     text-align: center;
 }
 .post:hover {
-    box-shadow: -4px 6px 5px rgba(1, 1, 1, 0.5);
+    box-shadow: -4px 6px 20px 5px rgba(1, 1, 1, 0.3);
     transform: translate(2px, -2px);
 }
 
