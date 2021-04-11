@@ -289,6 +289,10 @@ a:hover {
     gap: 25px;
 }
 
+.about-me h4 {
+    margin-top: 0;
+}
+
 #skills {
     width: 95%;
     display: flex;
