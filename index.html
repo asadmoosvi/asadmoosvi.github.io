@@ -172,13 +172,16 @@
             <h3 style="text-align: center">Get In Touch</h3>
             <form action="https://formspree.io/f/mwkakyrz" method="POST" id="contact-form">
                 <label for="name">Name</label>
-                <input class="input-field" type="text" name="name" id="name">
+                <input class="input-field" type="text" name="name" id="name" required>
+
+                <label for="email">Email</label>
+                <input class="input-field" type="email" name="email" id="email" required>
 
                 <label for="subject">Subject</label>
-                <input class="input-field" type="text" name="subject" id="subject">
+                <input class="input-field" type="text" name="subject" id="subject" required>
 
                 <label for="message">Message</label>
-                <textarea class="input-field" name="message" id="message"></textarea>
+                <textarea class="input-field" name="message" id="message" required></textarea>
 
                 <input id="submit-btn" type="submit" value="Send">
             </form>
