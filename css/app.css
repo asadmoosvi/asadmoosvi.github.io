@@ -13,6 +13,19 @@
     --themeDotBorder: #24292e;
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--borderColor);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secondaryText);
+}
+
+
 html, body {
     padding: 0;
     margin: 0;
