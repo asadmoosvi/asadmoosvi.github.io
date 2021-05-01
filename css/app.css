@@ -373,7 +373,7 @@ a:hover {
     border-bottom-right-radius: 0;
 }
 
-.thumbnail:hover {
+.post:hover .thumbnail {
     transform: scale(1.1);
 }
 
