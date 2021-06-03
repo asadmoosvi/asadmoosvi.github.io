@@ -345,16 +345,25 @@ a:hover {
     overflow: auto;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
 }
 
 .post-title {
-    margin: 15px 0;
     color: black;
+    margin: 0;
 }
 
 .post-intro {
     color: #4b5156;
     font-size: 16px;
+    margin: 0;
+}
+
+.readmore {
+  margin: 0;
 }
 
 .thumbnail-wrapper {
