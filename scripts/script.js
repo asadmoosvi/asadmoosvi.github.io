@@ -1,3 +1,11 @@
+// allow clicking on thumbnail to visit project link
+const thumbnails = document.querySelectorAll('.thumbnail-wrapper');
+thumbnails.forEach((thumbnail) => {
+  thumbnail.onclick = () => {
+    thumbnail.parentNode.querySelector('.readmore a').click();
+  }
+});
+
 let themeDots = document.getElementsByClassName('theme-dot');
 
 let theme = localStorage.getItem('theme');

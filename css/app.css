@@ -371,6 +371,11 @@ a:hover {
     overflow: hidden;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    cursor: pointer;
+}
+
+.thumbnail-wrapper:hover {
+  filter: brightness(80%);
 }
 
 .thumbnail {
