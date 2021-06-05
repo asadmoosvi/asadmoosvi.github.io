@@ -375,10 +375,22 @@ a:hover {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     cursor: pointer;
+    position: relative;
 }
 
-.thumbnail-wrapper:hover {
-  filter: brightness(80%);
+.thumbnail-wrapper::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: no-repeat center/20% url('/img/link.svg'), rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.thumbnail-wrapper:hover::after {
+    opacity: 1;
 }
 
 .thumbnail {
