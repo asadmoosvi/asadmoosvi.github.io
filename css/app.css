@@ -314,8 +314,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     background-color: var(--previewShadow);
-    border: 1px solid;
-    margin: auto;
+    border: 1px solid var(--borderColor);
 }
 
 .social-links {
