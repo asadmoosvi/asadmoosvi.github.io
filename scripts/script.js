@@ -64,3 +64,9 @@ for (var i = 0; i < browserDots.length; i++) {
         }
     });
 }
+
+// go to top on click
+const goUp = document.querySelector('.go-up-btn');
+goUp.addEventListener('click', () => {
+    window.scrollTo(0, 0);
+});
